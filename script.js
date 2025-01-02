@@ -56,7 +56,7 @@ function deleteExpense(event) {
 	}
 }
 
-// Add event listeners 
+// Add event listeners --------------------------------------------
 expenseForm.addEventListener("submit", addExpense);
 expenseList.addEventListener("click", deleteExpense);
 

@@ -24,6 +24,7 @@ function renderExpenses() {
 	totalAmountElement.textContent = totalAmount.toFixed(2);
 	localStorage.setItem("expenses", JSON.stringify(expenses));
 }
+
 // Function to add expense 
 function addExpense(event) {
 	event.preventDefault();

@@ -43,7 +43,7 @@ function addExpense(event) {
 	}
 	const expense = { name: expenseName, amount: expenseAmount, };
 	expenses.push(expense);
-	renderExpenses(); // Render expenses
+	renderExpenses();
 }
 
 // Function to delete expense 

@@ -3,7 +3,8 @@ const expenseForm = document.getElementById("expense-form");
 const expenseList = document.getElementById("expense-list");
 const totalAmountElement = document.getElementById("total-amount");
 
-let expenses = JSON.parse(localStorage.getItem("expenses")) || []; // Initialize expenses array from localStorage
+// Initialize expenses array from localStorage
+let expenses = JSON.parse(localStorage.getItem("expenses")) || [];
 
 // Function to render expenses in tabular form
 function renderExpenses() {

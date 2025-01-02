@@ -52,7 +52,7 @@ function deleteExpense(event) {
 		const expenseIndex = parseInt(event.target.getAttribute("data-id"));
 
 		expenses.splice(expenseIndex, 1);
-		renderExpenses(); // Render expenses
+		renderExpenses();
 	}
 }
 

@@ -1,7 +1,8 @@
 # Expense tracker
 ## Image Preview-1:
-![ExpRes1](https://github.com/user-attachments/assets/94230997-bace-4f17-8263-7799daa3bb4d)
+![ExpRes1](https://github.com/user-attachments/assets/397d6b01-6ff2-4f00-bfad-ce5b8005b1f4)
 
 ## Image Preview-2:
-![ExpResFull](https://github.com/user-attachments/assets/99eba162-bdef-4fc9-a267-d5fc1c5a4b9e)
-### Try This here:
+![ExpResFull](https://github.com/user-attachments/assets/18296c07-d871-4177-936f-788d232d3a72)
+
+### Try This here: https://handle-my-expenses.netlify.app

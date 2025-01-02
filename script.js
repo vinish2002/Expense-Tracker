@@ -33,7 +33,6 @@ function addExpense(event) {
 	const expenseName = expenseNameInput.value;
 	const expenseAmount = parseFloat(expenseAmountInput.value);
 
-	// Clear form inputs 
 	expenseNameInput.value = "";
 	expenseAmountInput.value = "";
 	// Validate inputs 

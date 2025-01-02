@@ -25,7 +25,7 @@ function renderExpenses() {
 	localStorage.setItem("expenses", JSON.stringify(expenses));
 }
 
-// Function to add expense 
+// Function to add expense --------------------------------------------
 function addExpense(event) {
 	event.preventDefault();
 	const expenseNameInput = document.getElementById("expense-name");

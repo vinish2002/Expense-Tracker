@@ -10,8 +10,7 @@ let expenses = JSON.parse(localStorage.getItem("expenses")) || [];
 function renderExpenses() {
 	expenseList.innerHTML = "";
 	let totalAmount = 0; // Initialize total amount 
-	for (let i = 0; i < expenses.length; i++) // Loop through expenses array and create table rows
-	{
+	for (let i = 0; i < expenses.length; i++) {
 		const expense = expenses[i];
 		const expenseRow = document.createElement("tr");
 		expenseRow.innerHTML = ` 

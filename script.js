@@ -51,8 +51,7 @@ function deleteExpense(event) {
 	if (event.target.classList.contains("delete-btn")) {
 		const expenseIndex = parseInt(event.target.getAttribute("data-id"));
 
-		expenses.splice(expenseIndex, 1); // Remove expense from expenses array
-
+		expenses.splice(expenseIndex, 1);
 		renderExpenses(); // Render expenses
 	}
 }

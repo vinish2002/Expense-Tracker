@@ -41,8 +41,8 @@ function addExpense(event) {
 		alert("Please enter valid expense details.");
 		return;
 	}
-	const expense = { name: expenseName, amount: expenseAmount, }; // Create new expense object
-	expenses.push(expense); // Add expense to expenses array
+	const expense = { name: expenseName, amount: expenseAmount, };
+	expenses.push(expense);
 	renderExpenses(); // Render expenses
 }
 

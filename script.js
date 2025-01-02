@@ -35,7 +35,8 @@ function addExpense(event) {
 
 	expenseNameInput.value = "";
 	expenseAmountInput.value = "";
-	// Validate inputs 
+
+
 	if (expenseName === "" || isNaN(expenseAmount)) {
 		alert("Please enter valid expense details.");
 		return;

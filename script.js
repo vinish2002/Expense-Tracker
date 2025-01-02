@@ -21,7 +21,7 @@ function renderExpenses() {
 		expenseList.appendChild(expenseRow);
 		totalAmount += expense.amount;
 	}
-	totalAmountElement.textContent = totalAmount.toFixed(2); // Update total amount display 
+	totalAmountElement.textContent = totalAmount.toFixed(2);
 	localStorage.setItem("expenses", JSON.stringify(expenses)); // Save expenses to localStorage
 }
 // Function to add expense 

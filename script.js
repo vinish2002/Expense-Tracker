@@ -60,4 +60,5 @@ function deleteExpense(event) {
 expenseForm.addEventListener("submit", addExpense);
 expenseList.addEventListener("click", deleteExpense);
 
-renderExpenses(); // Render initial expenses on page load
+renderExpenses();
+// Render initial expenses on page load

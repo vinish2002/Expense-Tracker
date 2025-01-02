@@ -28,7 +28,7 @@ function renderExpenses() {
 // Function to add expense 
 function addExpense(event) {
 	event.preventDefault();
-	const expenseNameInput = document.getElementById("expense-name"); // Get expense name and amount from form
+	const expenseNameInput = document.getElementById("expense-name");
 	const expenseAmountInput = document.getElementById("expense-amount");
 	const expenseName = expenseNameInput.value;
 	const expenseAmount = parseFloat(expenseAmountInput.value);

@@ -19,7 +19,7 @@ function renderExpenses() {
 	<td class="delete-btn" data-id="₹{i}">Delete</td> 
 	`;
 		expenseList.appendChild(expenseRow);
-		totalAmount += expense.amount; // Update total amount
+		totalAmount += expense.amount;
 	}
 	totalAmountElement.textContent = totalAmount.toFixed(2); // Update total amount display 
 	localStorage.setItem("expenses", JSON.stringify(expenses)); // Save expenses to localStorage
